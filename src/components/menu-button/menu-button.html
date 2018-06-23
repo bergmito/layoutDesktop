@@ -1,0 +1,7 @@
+<button *ngIf="screenSize > 720" (click)="openMenu()">
+    <ion-icon name="menu"></ion-icon>
+</button>
+
+<button *ngIf="screenSize <= 720" menuToggle>
+    <ion-icon name="menu"></ion-icon>
+</button>
